@@ -4,6 +4,7 @@
     right: 0;
     top: 5vh;
     margin: auto;
+    animation: fadeIn 4s;
 }
 
 .insName {
@@ -13,7 +14,31 @@
     right: 0;
     bottom: 0;
     font-size: 40px;
+    animation: fadeIns 8s;
 }
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+
+@keyframes fadeIns {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+
+    }
+}
+
 
 
 #imgSec{
@@ -24,7 +49,19 @@
     position: absolute;
     width: max-content;
     height: max-content;
+    animation: fadeInss 9s;
 
+}
+
+@keyframes fadeInss {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+
+    }
 }
 
 #imgSec > img{
@@ -33,12 +70,25 @@
 }
 
 #btn{
+
     position: absolute;
     bottom: 46vh;
     right: 98vh;
     width: 10vw;
 font-size: 20px;
+    animation: fadeInsss 9s;
 
+
+}
+@keyframes fadeInsss {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+
+    }
 }
 
 #topic{
@@ -56,4 +106,20 @@ font-size: 20px;
     left: 42vw;
     top: 12vh;
     position: absolute;
+}
+
+#gif{
+position: absolute;
+    width: 30vh;
+    height: 30vh;
+    left: 36vh;
+    top: 32vh;
+}
+
+#img{
+    position: absolute;
+    width: 80vh;
+    height: 80vh;
+    right: 67vh;
+    bottom: 0vh;
 }
