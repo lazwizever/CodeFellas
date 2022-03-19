@@ -1,0 +1,16 @@
+.ijseLogo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5vh;
+    margin: auto;
+}
+
+.insName {
+    position: absolute;
+    left: 28vw;
+    top: 25vh;
+    right: 0;
+    bottom: 0;
+    font-size: 40px;
+}
