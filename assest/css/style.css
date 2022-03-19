@@ -14,3 +14,15 @@
     bottom: 0;
     font-size: 40px;
 }
+
+
+#imgSec{
+    display: flex;
+    justify-content: space-between;
+    top: 65vh;
+    left: 75vh;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+
+}
