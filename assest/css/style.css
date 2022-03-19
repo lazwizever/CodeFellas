@@ -40,3 +40,20 @@
 font-size: 20px;
 
 }
+
+#topic{
+    font-family: ubuntu;
+    color: red;
+    font-weight: bold;
+    font-size: 64px;
+    left: 37vw;
+    position: absolute;
+}
+#topic1{
+    font-family: ubuntu;
+    color: red;
+    font-size: 30px;
+    left: 42vw;
+    top: 12vh;
+    position: absolute;
+}
